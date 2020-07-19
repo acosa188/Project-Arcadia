@@ -1,0 +1,16 @@
+.headerClass {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoClass {
+    background-color: aqua;
+    min-height: 100px;
+    width:200px;
+}
+
+nav.navigation {
+    color: white;
+    display: flex;
+    align-items: center;
+}

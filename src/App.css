@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+html {
+ background-color: #30178A;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  width: 1024px;
+  min-height: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1 {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 5rem;
+  color: white;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 4rem;
+  color: white;
+  
+}
+
+.company-title{
+  text-align: center;
+  padding-top: 150px;
+  letter-spacing: 7rem;
+}
+
+.company-motto {
+  padding-top:200px;
+  line-height: 6.5rem;
+}
+
