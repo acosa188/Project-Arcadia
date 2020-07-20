@@ -1,6 +1,10 @@
 import React from 'react';
 import Header from './Components/Header';
-import './css-reset.css'
+import ServicesNavbar from './Components/ServicesNavbar';
+import ServicesContent from './Components/SevicesContent';
+import ServiceInfoSection from './Components/ServiceInfoSection';
+import ProjectsSection from './Components/ProjectsSection';
+import './css-reset.css';
 import './App.css';
 
 function App() {
@@ -12,6 +16,10 @@ function App() {
       <main>
         <h2 className="company-title">ARCADIA</h2>
         <h1 className="company-motto">We evolve ideas & products into brands</h1>
+        <ServicesNavbar />
+        <ServicesContent />
+        <ServiceInfoSection />
+        <ProjectsSection />
       </main>
 
       <footer>

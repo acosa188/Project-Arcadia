@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import HeaderNavbar from './HeaderNavbar';
 import './Header.css';
 
 class Header extends Component{
@@ -9,7 +10,7 @@ class Header extends Component{
 
                 </div>
                 <nav className="navigation" >
-                    PORTFOLIO   ABOUT US   AWARDS   CONTACTS
+                    <HeaderNavbar />
                 </nav>
             </div>
         );

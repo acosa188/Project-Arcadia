@@ -1,0 +1,32 @@
+.project-section-container header {
+    display: flex;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.project-section-container header h1{
+    
+    display: inline-block;
+}
+
+.project-section-container header a{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.view-all-project-button{
+    display: inline-block;
+    padding: 30px 25px;
+    border: 2px solid #5b48c0;
+    border-radius: 50px;
+    margin-left: 100px;
+}
+
+.project-info-contents{
+    background-color: teal;
+    width: 1000px;
+    min-height: 600px;
+    margin-top: 150px;
+    border-radius: 50px;
+}

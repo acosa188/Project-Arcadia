@@ -1,0 +1,10 @@
+.service-info-section-container h1 {
+    padding-top: 200px;
+}
+
+.service-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
