@@ -9,7 +9,9 @@ class ProjectsSection extends Component{
                     <h1>Our Projects</h1>
                     <a href="#">
                         <div className="view-all-project-button">
-                            View All Projects
+                            <h3>
+                                View All Projects
+                            </h3>
                         </div>
                     </a>
                 </header>

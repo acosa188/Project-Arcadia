@@ -4,6 +4,7 @@ import ServicesNavbar from './Components/ServicesNavbar';
 import ServicesContent from './Components/SevicesContent';
 import ServiceInfoSection from './Components/ServiceInfoSection';
 import ProjectsSection from './Components/ProjectsSection';
+import TestimonialSection from './Components/TestimonialSection';
 import './css-reset.css';
 import './App.css';
 
@@ -20,6 +21,7 @@ function App() {
         <ServicesContent />
         <ServiceInfoSection />
         <ProjectsSection />
+        <TestimonialSection />
       </main>
 
       <footer>

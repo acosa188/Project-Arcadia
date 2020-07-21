@@ -8,7 +8,7 @@ class HeaderNavbar extends Component{
                 <nav className="header-navbar">
                     <div className="header-navbar-item">
                         <div className="circle"></div>   
-                        <a href="#">                PORTFOLIO</a>
+                        <a href="#">PORTFOLIO</a>
                     </div>
                    
                     <div className="header-navbar-item">
