@@ -2,9 +2,10 @@
     padding-top: 100px;
 }
 
-.services-navbar {
+.services-navbar-container .services-navbar {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+   
 }
 
 a.services-item {
@@ -15,6 +16,19 @@ a.services-item {
 }
 
 a.services-item:hover {
-    border-bottom: 2px solid #DFAE38;
+    border-bottom: 3px solid #DFAE38;
     padding-bottom: 2px;
+}
+
+.services-navbar-container .nav-item{
+    display: flex;
+    
+}
+
+.services-navbar-container .nav-item h5{
+    color: #d99241;
+}
+
+.services-navbar-container .nav-item p{
+    padding: 0 20px;
 }

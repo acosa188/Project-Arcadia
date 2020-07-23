@@ -41,6 +41,11 @@ h4{
   color:white;
 }
 
+h5{
+  font-weight: 700;
+  font-size: 1rem;
+}
+
 .company-title{
   text-align: center;
   padding-top: 150px;
