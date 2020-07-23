@@ -5,6 +5,7 @@ import ServicesContent from './Components/SevicesContent';
 import ServiceInfoSection from './Components/ServiceInfoSection';
 import ProjectsSection from './Components/ProjectsSection';
 import TestimonialSection from './Components/TestimonialSection';
+import Footer from './Components/Footer';
 import './css-reset.css';
 import './App.css';
 
@@ -25,7 +26,7 @@ function App() {
       </main>
 
       <footer>
-
+        <Footer />
       </footer>
     </div>
   );

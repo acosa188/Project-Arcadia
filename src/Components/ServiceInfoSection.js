@@ -8,10 +8,10 @@ class ServiceInfoSection extends Component {
             <div className="service-info-section-container">
                 <h1>Services We Provide</h1>
                 <div className="service-cards">
-                    <ServiceInfoCard />
-                    <ServiceInfoCard />
-                    <ServiceInfoCard />
-                    <ServiceInfoCard />
+                    <ServiceInfoCard number="01" label="Experience, Market Research"/>
+                    <ServiceInfoCard number="02" label="Concepting & Prototyping"/>
+                    <ServiceInfoCard number="03" label="Branding & Strategy"/>
+                    <ServiceInfoCard number="04" label="Engineering, DevOps, QA"/>
                 </div>
             </div>
         );
