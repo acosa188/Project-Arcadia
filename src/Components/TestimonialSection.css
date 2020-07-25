@@ -65,3 +65,23 @@
     border-radius: 30px;
     border: 4px solid #5739bb;
 }
+
+.testimonial-qoutes{
+    padding: 100px;
+    box-sizing: border-box;
+}
+
+.testimonial-qoutes h3{
+    display: inline-block;
+    padding-right: 20px;
+    width: 70%;
+    line-height: 2.5rem;
+}
+
+.testimonial-qoutes .testimonial-button-container{
+    display: block;
+}
+
+.testimonial-qoutes .button-container{
+    padding-top: 50px;
+}
