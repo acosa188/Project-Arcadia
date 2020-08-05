@@ -7,7 +7,7 @@ class ServiceInfoCard extends Component{
             <div className="service-info-card-container">
                 <a href="#">
                     <div className="service-logo">
-    
+                        <img src={this.props.logo} alt="search_logo" height="70px"/>
                     </div>
                     
                     <div className="service-textarea">
