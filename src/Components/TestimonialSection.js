@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import CustomButton from './CustomButton';
 import logo from '../images/logo.png';
 import './TestimonialSection.css';
+import bogologo from '../images/bogologo.png';
+import momalogo from '../images/momalogo.png';
+import artalogo from '../images/artalogo.png';
 
 class TestimonialSection extends Component {
     render(){
@@ -12,10 +15,11 @@ class TestimonialSection extends Component {
                 </header>
                 <div className="testimonial-content">
                     <nav className="navigation">
+
                         <a href="#">
                             <div className="testimonial-person">
                                 <div className="testimonial-logo-bg">
-
+                                    <img src={bogologo} alt="bogo-logo" height="50px"/>
                                 </div>
     
                                 <div class="info">
@@ -24,10 +28,11 @@ class TestimonialSection extends Component {
                                 </div>                                
                             </div>
                         </a>
+
                         <a href="#">
                             <div className="testimonial-person">
                                 <div className="testimonial-logo-bg">
-
+                                    <img src={momalogo} alt="moma-logo" height="50px"/>
                                 </div>
                                 <div class="info">
                                     <h3>William Smith</h3>
@@ -35,10 +40,11 @@ class TestimonialSection extends Component {
                                 </div>   
                             </div>
                         </a>
+
                         <a href="#">
                             <div className="testimonial-person">
                                 <div className="testimonial-logo-bg">
-
+                                    <img src={artalogo} alt="arta-logo" height="50px"/>
                                 </div>
                                 <div class="info">
                                     <h3>Monica Hunt</h3>

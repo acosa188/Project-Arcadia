@@ -65,3 +65,11 @@ h6{
   line-height: 6.5rem;
 }
 
+.footerClass{
+  margin-top: 200px;
+  background-image: url(images/footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+

@@ -11,24 +11,27 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header>
-        <Header />
-      </header>
-      <main>
-        <h2 className="company-title">ARCADIA</h2>
-        <h1 className="company-motto">We evolve ideas & products into brands</h1>
-        <ServicesNavbar />
-        <ServicesContent />
-        <ServiceInfoSection />
-        <ProjectsSection />
-        <TestimonialSection />
-      </main>
+    <div className="Appwrapper">
+      <div className="App">
+            <header>
+              <Header />
+            </header>
+            <main>
+              <h2 className="company-title">ARCADIA</h2>
+              <h1 className="company-motto">We evolve ideas & products into brands</h1>
+              <ServicesNavbar />
+              <ServicesContent />
+              <ServiceInfoSection />
+              <ProjectsSection />
+              <TestimonialSection />
+            </main> 
+          </div>
 
-      <footer>
-        <Footer />
-      </footer>
+          <footer className="footerClass">
+            <Footer />
+          </footer>
     </div>
+    
   );
 }
 
