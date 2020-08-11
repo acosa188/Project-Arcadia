@@ -1,13 +1,9 @@
 .footer-container{
     padding: 300px 0px 100px 0px;
-    display: flex;
-    justify-content: space-between;
-    margin-right: auto;
-    margin-left: auto;
     width: 1024px;
 }
 
-.footer-container .footer-logoClass-container .logo-footer{
+.footer-logoClass-container .logo-footer{
     background-color:#4b2daf;
     border:1.5px solid #6C50D3;    
     height:60px;
@@ -22,7 +18,7 @@
 }
 
 
-.footer-container .footer-logoClass-container .logo-footer:hover{
+.footer-logoClass-container .logo-footer:hover{
     border-color: #29d7fc;
 }
 
@@ -42,6 +38,6 @@
 
 .media-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 

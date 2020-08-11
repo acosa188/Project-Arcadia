@@ -9,6 +9,7 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: transparent;
 }
 
 .App {
@@ -73,3 +74,6 @@ h6{
   background-size: cover;
 }
 
+.jumbotron {
+  background-color: transparent;
+}

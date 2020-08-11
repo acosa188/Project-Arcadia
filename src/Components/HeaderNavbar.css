@@ -3,6 +3,10 @@
     justify-content: space-evenly;
 }
 
+.header-navbar-item {
+    display: flex;
+}
+
 .header-navbar-item a{
     font-weight: 400;
     font-size: 1.1rem;
