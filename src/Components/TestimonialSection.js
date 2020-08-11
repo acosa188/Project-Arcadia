@@ -54,14 +54,11 @@ class TestimonialSection extends Component {
                         </a>
                     </nav>
                     
-                    <Jumbotron>
-                        <div className="testimonial-qoutes">
-                            <h3>" Creating a compelling corporate site at such a complex time in Bogo's history was a fascinating challenge. "</h3>
-                            <div className="testimonial-button-container">
-                                <CustomButton name="Contact Us" />
-                            </div>
-
-                        </div>
+                    <Jumbotron className="testimonial-qoutes">         
+                        <h3>" Creating a compelling corporate site at such a complex time in Bogo's history was a fascinating challenge. "</h3>
+                        <div className="testimonial-button-container">
+                            <CustomButton name="Contact Us" />
+                        </div>       
                     </Jumbotron>
                     
                 </div>
