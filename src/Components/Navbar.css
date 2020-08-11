@@ -1,0 +1,31 @@
+.circle {
+    background-color:#30178A;
+    border:1.5px solid #6C50D3;    
+    height:5px;
+    width:5px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%; 
+    margin-right: 10px;
+    display: inline-block;
+    margin-bottom: 2px;
+}
+
+.header-navbar-item:hover .nav-label{
+    border-bottom: 2px solid #DFAE38;
+    padding-bottom: 18px;
+}
+
+.header-navbar-item:hover .circle{
+    border-color: #DFAE38;
+}
+
+.header-navbar-item .nav-label{
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+    margin-right: 25px;
+    padding-bottom: 20px;
+    display: inline-block;
+}

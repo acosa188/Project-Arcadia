@@ -46,12 +46,12 @@
     justify-content: center;
 }
 .testimonial-content .navigation a{
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 
 .testimonial-content .navigation a:hover {
     border-bottom: 2px solid #ffad32;
-    padding-bottom: 98px;
+    padding-bottom: 78px;
 }
 
 .testimonial-content .navigation a:hover .testimonial-person .testimonial-logo-bg{
