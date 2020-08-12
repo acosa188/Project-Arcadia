@@ -52,6 +52,12 @@
 .testimonial-content .navigation a:hover {
     border-bottom: 2px solid #ffad32;
     padding-bottom: 78px;
+    cursor: pointer;
+}
+
+.testimonial-content .navigation a:visited {
+    border-bottom: 2px solid #ffad32;
+    padding-bottom: 78px;
 }
 
 .testimonial-content .navigation a:hover .testimonial-person .testimonial-logo-bg{

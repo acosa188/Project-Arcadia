@@ -38,7 +38,6 @@ function App() {
       <footer className="footerClass">
         <Footer />
       </footer>
-      
 
     </div>
 
