@@ -1,0 +1,12 @@
+.apple-button-container .btn-outline-primary{
+    background-color: #4a2ea9;
+    color: white;
+    border-radius: 300px;
+    border: 3px solid #7454e3;
+    padding: 11px 30px;
+}
+
+.apple-button-container h3{
+    margin-top: -10px;
+    font-weight: bold;
+}

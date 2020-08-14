@@ -6,21 +6,33 @@
     padding-top: 70px;
 }
 
-.testimonial-content .navigation {
-    width:100%;
-    display: flex;
-    justify-content: space-between;
+.testimonial-content .nav-pills .nav-link{
+    padding-bottom: 50px;
+    border-bottom: 3px solid #5137B4;
 }
 
-.testimonial-content .navigation a {
-    text-decoration: none;
+.testimonial-content .nav-pills .nav-link.active{
+    background-color: transparent;
+    border-bottom: 3px solid #DFAE38;
+}
+
+.testimonial-content .nav-pills .nav-link.active .testimonial-logo-bg{
+    background-color:#ea8c18;
+    border-color: #fea418;
+}
+
+.testimonial-section-container .info {
+    text-align: left;
+}
+
+.testimonial-content .nav-pills .nav-link.active .info h4 {
+    color:#EB9E45;
 }
 
 .testimonial-person {   
     display: flex;
     align-items: center;
 }
-
 
 .testimonial-person .info {
     display: inline-block;
@@ -45,25 +57,7 @@
     align-items: center;
     justify-content: center;
 }
-.testimonial-content .navigation a{
-    padding-bottom: 80px;
-}
 
-.testimonial-content .navigation a:hover {
-    border-bottom: 2px solid #ffad32;
-    padding-bottom: 78px;
-    cursor: pointer;
-}
-
-.testimonial-content .navigation a:visited {
-    border-bottom: 2px solid #ffad32;
-    padding-bottom: 78px;
-}
-
-.testimonial-content .navigation a:hover .testimonial-person .testimonial-logo-bg{
-    background-color:#ea8c18;
-    border-color: #fea418;
-}
 
 .testimonial-content .testimonial-qoutes{
     background-color: #5234b6;
@@ -81,7 +75,6 @@
 
 .testimonial-qoutes h3{
     display: inline-block;
-    padding-right: 20px;
     width: 70%;
     line-height: 2.5rem;
 }
@@ -92,4 +85,9 @@
 
 .testimonial-qoutes .button-container{
     padding-top: 50px;
+}
+
+.testimonial-qoutes span{
+    color:#FEAD30;
+    font-size: 3rem;
 }

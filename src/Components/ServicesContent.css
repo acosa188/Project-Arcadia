@@ -1,6 +1,14 @@
 .services-content {
-    background-color: violet;
+    background-color: transparent;
     width: 100%;
     min-height: 300px;
     margin-top: 50px;
+}
+
+.services-content h2{
+    font-size: 3rem;
+}
+
+.services-content .apple-button-wrapper{
+    padding-top: 180px;
 }
